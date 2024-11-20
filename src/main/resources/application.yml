@@ -8,6 +8,9 @@ spring:
     url: jdbc:mysql://localhost:3306/x_db?useSSL=false&serverTimezone=UTC
     username: root
     password: maijiajun666
+  redis:
+    host: 192.168.159.128
+    port: 6379
 
 mybatis-plus:
   type-aliases-package: xyz.ivan.x.entity # 别名扫描包
