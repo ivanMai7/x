@@ -1,10 +1,7 @@
 package xyz.ivan.x.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 import xyz.ivan.x.service.IFollowService;
 import xyz.ivan.x.util.Result;
 
@@ -14,8 +11,24 @@ public class FollowController {
     @Autowired
     private IFollowService followService;
 
-    @GetMapping("/follow/{followerId}")
-    public Result getFollowById(@PathVariable("followerId") Long followerId){
-        return followService.getFolloweeListByFollowerId(followerId);
+    @PostMapping("/follow/{followeeId}")
+    public Result follow(@PathVariable("followeeId") Long followeeId){
+        return followService.follow(followeeId);
+    }
+
+    @PostMapping("/unfollow/{followeeId}")
+    public Result unfollow(@PathVariable("followeeId") Long followeeId){
+        return followService.unfollow(followeeId);
+    }
+
+
+    @GetMapping("/followers")
+    public Result getFollowersById(){
+        return followService.getFollowerList();
+    }
+
+    @GetMapping("/followees")
+    public Result getFolloweesById(){
+        return followService.getFolloweeList();
     }
 }

@@ -8,4 +8,12 @@ import xyz.ivan.x.util.Result;
 
 public interface IFollowService extends IService<Follow> {
     Result getFolloweeListByFollowerId(Long followerId);
+
+    Result follow(Long followeeId);
+
+    Result unfollow(Long followeeId);
+
+    Result getFollowerList();
+
+    Result getFolloweeList();
 }
