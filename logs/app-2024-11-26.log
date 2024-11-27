@@ -1,0 +1,449 @@
+2024-11-26 17:16:21.518 [main] INFO  xyz.ivan.x.XApplication - Starting XApplication using Java 17.0.11 on LAPTOP-FSPF6GT1 with PID 3392 (D:\javaWorkSpace\x\target\classes started by 15934 in D:\javaWorkSpace\x)
+2024-11-26 17:16:21.521 [main] INFO  xyz.ivan.x.XApplication - No active profile set, falling back to default profiles: default
+2024-11-26 17:16:21.877 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2024-11-26 17:16:21.879 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-11-26 17:16:21.895 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+2024-11-26 17:16:22.253 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2024-11-26 17:16:22.259 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2024-11-26 17:16:22.259 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-11-26 17:16:22.259 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.55]
+2024-11-26 17:16:22.326 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-11-26 17:16:22.327 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 780 ms
+2024-11-26 17:16:22.698 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "xyz.ivan.x.entity.Follow".
+2024-11-26 17:16:22.698 [main] WARN  c.b.m.c.injector.DefaultSqlInjector - class xyz.ivan.x.entity.Follow ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2024-11-26 17:16:22.993 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2024-11-26 17:16:23.014 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2024-11-26 17:16:23.021 [main] INFO  xyz.ivan.x.XApplication - Started XApplication in 1.778 seconds (JVM running for 2.235)
+2024-11-26 17:17:05.017 [http-nio-8081-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-26 17:17:05.018 [http-nio-8081-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-11-26 17:17:05.020 [http-nio-8081-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2024-11-26 17:17:05.044 [http-nio-8081-exec-2] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2024-11-26 17:17:15.248 [http-nio-8081-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-11-26 17:17:15.362 [http-nio-8081-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-11-26 17:17:15.379 [http-nio-8081-exec-3] INFO  x.i.x.service.impl.LikeServiceImpl - 用户：1012给博客:33点赞
+2024-11-26 17:17:53.014 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-11-26 17:17:53.017 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-11-26 17:17:56.901 [main] INFO  xyz.ivan.x.XApplication - Starting XApplication using Java 17.0.11 on LAPTOP-FSPF6GT1 with PID 3476 (D:\javaWorkSpace\x\target\classes started by 15934 in D:\javaWorkSpace\x)
+2024-11-26 17:17:56.902 [main] INFO  xyz.ivan.x.XApplication - No active profile set, falling back to default profiles: default
+2024-11-26 17:17:57.209 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2024-11-26 17:17:57.210 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-11-26 17:17:57.223 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+2024-11-26 17:17:57.520 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2024-11-26 17:17:57.525 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2024-11-26 17:17:57.525 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-11-26 17:17:57.525 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.55]
+2024-11-26 17:17:57.571 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-11-26 17:17:57.572 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 646 ms
+2024-11-26 17:17:57.868 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "xyz.ivan.x.entity.Follow".
+2024-11-26 17:17:57.868 [main] WARN  c.b.m.c.injector.DefaultSqlInjector - class xyz.ivan.x.entity.Follow ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2024-11-26 17:17:58.147 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2024-11-26 17:17:58.168 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2024-11-26 17:17:58.174 [main] INFO  xyz.ivan.x.XApplication - Started XApplication in 1.494 seconds (JVM running for 1.79)
+2024-11-26 17:18:05.036 [http-nio-8081-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-26 17:18:05.036 [http-nio-8081-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-11-26 17:18:05.037 [http-nio-8081-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-11-26 17:18:05.357 [http-nio-8081-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-11-26 17:18:05.468 [http-nio-8081-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-11-26 17:18:05.517 [http-nio-8081-exec-2] INFO  x.i.x.service.impl.LikeServiceImpl - 用户：1012给博客:33点赞
+2024-11-26 17:20:32.457 [http-nio-8081-exec-5] ERROR x.i.x.service.impl.LikeServiceImpl - 该用户：1012已经给该博客:33点赞，不可重复点赞！
+2024-11-26 17:27:33.926 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-11-26 17:27:33.932 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-11-26 17:27:37.715 [main] INFO  xyz.ivan.x.XApplication - Starting XApplication using Java 17.0.11 on LAPTOP-FSPF6GT1 with PID 10044 (D:\javaWorkSpace\x\target\classes started by 15934 in D:\javaWorkSpace\x)
+2024-11-26 17:27:37.716 [main] INFO  xyz.ivan.x.XApplication - No active profile set, falling back to default profiles: default
+2024-11-26 17:27:38.074 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2024-11-26 17:27:38.076 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-11-26 17:27:38.093 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+2024-11-26 17:27:38.411 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2024-11-26 17:27:38.416 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2024-11-26 17:27:38.416 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-11-26 17:27:38.417 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.55]
+2024-11-26 17:27:38.463 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-11-26 17:27:38.463 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 724 ms
+2024-11-26 17:27:38.777 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "xyz.ivan.x.entity.Follow".
+2024-11-26 17:27:38.777 [main] WARN  c.b.m.c.injector.DefaultSqlInjector - class xyz.ivan.x.entity.Follow ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2024-11-26 17:27:39.084 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2024-11-26 17:27:39.109 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2024-11-26 17:27:39.120 [main] INFO  xyz.ivan.x.XApplication - Started XApplication in 1.638 seconds (JVM running for 1.959)
+2024-11-26 17:27:51.539 [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-26 17:27:51.539 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-11-26 17:27:51.540 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-11-26 17:27:51.895 [http-nio-8081-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-11-26 17:27:52.006 [http-nio-8081-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-11-26 17:27:52.049 [http-nio-8081-exec-1] INFO  x.i.x.service.impl.LikeServiceImpl - 用户：1012取消点赞tweet：33
+2024-11-26 17:29:08.996 [http-nio-8081-exec-5] ERROR x.i.x.service.impl.LikeServiceImpl - 用户：1012未点赞tweet：33，不可取消点赞！
+2024-11-26 17:29:55.645 [http-nio-8081-exec-6] ERROR x.i.x.service.impl.LikeServiceImpl - 用户：1012未点赞tweet：3，不可取消点赞！
+2024-11-26 17:30:08.078 [http-nio-8081-exec-7] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2024-11-26 17:42:07.600 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-11-26 17:42:07.603 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-11-26 17:42:11.099 [main] INFO  xyz.ivan.x.XApplication - Starting XApplication using Java 17.0.11 on LAPTOP-FSPF6GT1 with PID 15848 (D:\javaWorkSpace\x\target\classes started by 15934 in D:\javaWorkSpace\x)
+2024-11-26 17:42:11.100 [main] INFO  xyz.ivan.x.XApplication - No active profile set, falling back to default profiles: default
+2024-11-26 17:42:11.443 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2024-11-26 17:42:11.444 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-11-26 17:42:11.461 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+2024-11-26 17:42:11.805 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2024-11-26 17:42:11.810 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2024-11-26 17:42:11.810 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-11-26 17:42:11.810 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.55]
+2024-11-26 17:42:11.863 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-11-26 17:42:11.863 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 734 ms
+2024-11-26 17:42:12.177 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "xyz.ivan.x.entity.Follow".
+2024-11-26 17:42:12.177 [main] WARN  c.b.m.c.injector.DefaultSqlInjector - class xyz.ivan.x.entity.Follow ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2024-11-26 17:42:12.463 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2024-11-26 17:42:12.485 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2024-11-26 17:42:12.492 [main] INFO  xyz.ivan.x.XApplication - Started XApplication in 1.622 seconds (JVM running for 1.927)
+2024-11-26 17:42:16.177 [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-26 17:42:16.177 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-11-26 17:42:16.178 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2024-11-26 17:42:16.186 [http-nio-8081-exec-1] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2024-11-26 17:42:20.029 [http-nio-8081-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-11-26 17:42:20.289 [http-nio-8081-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-11-26 17:42:20.353 [http-nio-8081-exec-3] INFO  x.i.x.service.impl.LikeServiceImpl - 用户：1012给博客:33点赞
+2024-11-26 17:42:54.546 [http-nio-8081-exec-5] INFO  x.i.x.service.impl.LikeServiceImpl - 查询tweet：33的点赞用户列表
+2024-11-26 17:49:50.104 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-11-26 17:49:50.106 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-11-26 17:49:52.841 [main] INFO  xyz.ivan.x.XApplication - Starting XApplication using Java 17.0.11 on LAPTOP-FSPF6GT1 with PID 16120 (D:\javaWorkSpace\x\target\classes started by 15934 in D:\javaWorkSpace\x)
+2024-11-26 17:49:52.843 [main] INFO  xyz.ivan.x.XApplication - No active profile set, falling back to default profiles: default
+2024-11-26 17:49:53.166 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2024-11-26 17:49:53.167 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-11-26 17:49:53.181 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+2024-11-26 17:49:53.505 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2024-11-26 17:49:53.510 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2024-11-26 17:49:53.510 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-11-26 17:49:53.510 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.55]
+2024-11-26 17:49:53.557 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-11-26 17:49:53.557 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 687 ms
+2024-11-26 17:49:53.877 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "xyz.ivan.x.entity.Follow".
+2024-11-26 17:49:53.877 [main] WARN  c.b.m.c.injector.DefaultSqlInjector - class xyz.ivan.x.entity.Follow ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2024-11-26 17:49:54.168 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2024-11-26 17:49:54.190 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2024-11-26 17:49:54.197 [main] INFO  xyz.ivan.x.XApplication - Started XApplication in 1.595 seconds (JVM running for 1.873)
+2024-11-26 17:50:07.683 [http-nio-8081-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-26 17:50:07.684 [http-nio-8081-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-11-26 17:50:07.685 [http-nio-8081-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-11-26 17:50:08.546 [http-nio-8081-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-11-26 17:50:08.829 [http-nio-8081-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-11-26 17:50:08.883 [http-nio-8081-exec-2] INFO  x.i.x.service.impl.LikeServiceImpl - 用户：1012给博客:34点赞
+2024-11-26 17:50:27.032 [http-nio-8081-exec-3] INFO  x.i.x.service.impl.LikeServiceImpl - 查询用户：1012点赞的tweet列表
+2024-11-26 18:01:37.965 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-11-26 18:01:37.972 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-11-26 18:01:44.661 [main] INFO  xyz.ivan.x.XApplication - Starting XApplication using Java 17.0.11 on LAPTOP-FSPF6GT1 with PID 16156 (D:\javaWorkSpace\x\target\classes started by 15934 in D:\javaWorkSpace\x)
+2024-11-26 18:01:44.662 [main] INFO  xyz.ivan.x.XApplication - No active profile set, falling back to default profiles: default
+2024-11-26 18:01:44.985 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2024-11-26 18:01:44.987 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-11-26 18:01:45.000 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+2024-11-26 18:01:45.317 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2024-11-26 18:01:45.322 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2024-11-26 18:01:45.323 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-11-26 18:01:45.323 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.55]
+2024-11-26 18:01:45.373 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-11-26 18:01:45.373 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 684 ms
+2024-11-26 18:01:45.723 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "xyz.ivan.x.entity.Follow".
+2024-11-26 18:01:45.727 [main] WARN  c.b.m.c.injector.DefaultSqlInjector - class xyz.ivan.x.entity.Follow ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2024-11-26 18:01:45.990 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2024-11-26 18:01:46.011 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2024-11-26 18:01:46.018 [main] INFO  xyz.ivan.x.XApplication - Started XApplication in 1.607 seconds (JVM running for 1.932)
+2024-11-26 18:02:22.717 [http-nio-8081-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-26 18:02:22.718 [http-nio-8081-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-11-26 18:02:22.718 [http-nio-8081-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2024-11-26 18:02:23.065 [http-nio-8081-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-11-26 18:02:23.177 [http-nio-8081-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-11-26 18:02:23.247 [http-nio-8081-exec-2] ERROR xyz.ivan.x.config.WebExceptionAdvice - 用户：1012执行时500！
+2024-11-26 18:02:23.248 [http-nio-8081-exec-2] ERROR xyz.ivan.x.config.WebExceptionAdvice - org.springframework.dao.DataIntegrityViolationException: 
+### Error updating database.  Cause: java.sql.SQLException: Field 'user_id' doesn't have a default value
+### The error may exist in xyz/ivan/x/mapper/CommentMapper.java (best guess)
+### The error may involve xyz.ivan.x.mapper.CommentMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO tb_comment  ( tweet_id,  content )  VALUES (  ?,  ?  )
+### Cause: java.sql.SQLException: Field 'user_id' doesn't have a default value
+; Field 'user_id' doesn't have a default value; nested exception is java.sql.SQLException: Field 'user_id' doesn't have a default value
+org.springframework.dao.DataIntegrityViolationException: 
+### Error updating database.  Cause: java.sql.SQLException: Field 'user_id' doesn't have a default value
+### The error may exist in xyz/ivan/x/mapper/CommentMapper.java (best guess)
+### The error may involve xyz.ivan.x.mapper.CommentMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO tb_comment  ( tweet_id,  content )  VALUES (  ?,  ?  )
+### Cause: java.sql.SQLException: Field 'user_id' doesn't have a default value
+; Field 'user_id' doesn't have a default value; nested exception is java.sql.SQLException: Field 'user_id' doesn't have a default value
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:251)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:70)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:92)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:439)
+	at jdk.proxy2/jdk.proxy2.$Proxy67.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:272)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.execute(MybatisMapperMethod.java:59)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy$PlainMethodInvoker.invoke(MybatisMapperProxy.java:152)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy.invoke(MybatisMapperProxy.java:89)
+	at jdk.proxy2/jdk.proxy2.$Proxy69.insert(Unknown Source)
+	at com.baomidou.mybatisplus.extension.service.IService.save(IService.java:60)
+	at xyz.ivan.x.service.impl.CommentServiceImpl.saveComment(CommentServiceImpl.java:36)
+	at xyz.ivan.x.service.impl.CommentServiceImpl$$FastClassBySpringCGLIB$$95e0b2b6.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689)
+	at xyz.ivan.x.service.impl.CommentServiceImpl$$EnhancerBySpringCGLIB$$a7f9127e.saveComment(<generated>)
+	at xyz.ivan.x.controller.CommentController.saveComment(CommentController.java:24)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:895)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1722)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: java.sql.SQLException: Field 'user_id' doesn't have a default value
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:965)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3978)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3914)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2530)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2683)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2495)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1903)
+	at com.mysql.jdbc.PreparedStatement.execute(PreparedStatement.java:1242)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:48)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:75)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:197)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:184)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:425)
+	... 63 common frames omitted
+2024-11-26 18:02:56.901 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-11-26 18:02:56.916 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-11-26 18:02:59.579 [main] INFO  xyz.ivan.x.XApplication - Starting XApplication using Java 17.0.11 on LAPTOP-FSPF6GT1 with PID 5052 (D:\javaWorkSpace\x\target\classes started by 15934 in D:\javaWorkSpace\x)
+2024-11-26 18:02:59.580 [main] INFO  xyz.ivan.x.XApplication - No active profile set, falling back to default profiles: default
+2024-11-26 18:02:59.896 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2024-11-26 18:02:59.897 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-11-26 18:02:59.912 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+2024-11-26 18:03:00.230 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2024-11-26 18:03:00.235 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2024-11-26 18:03:00.235 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-11-26 18:03:00.236 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.55]
+2024-11-26 18:03:00.281 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-11-26 18:03:00.281 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 676 ms
+2024-11-26 18:03:00.626 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "xyz.ivan.x.entity.Follow".
+2024-11-26 18:03:00.626 [main] WARN  c.b.m.c.injector.DefaultSqlInjector - class xyz.ivan.x.entity.Follow ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2024-11-26 18:03:00.887 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2024-11-26 18:03:00.909 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2024-11-26 18:03:00.916 [main] INFO  xyz.ivan.x.XApplication - Started XApplication in 1.566 seconds (JVM running for 1.846)
+2024-11-26 18:03:08.038 [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-26 18:03:08.038 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-11-26 18:03:08.039 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-11-26 18:03:08.384 [http-nio-8081-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-11-26 18:03:08.496 [http-nio-8081-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-11-26 18:03:08.554 [http-nio-8081-exec-1] INFO  x.i.x.s.impl.CommentServiceImpl - 用户：1012添加评论：2成功
+2024-11-26 18:04:00.393 [http-nio-8081-exec-3] ERROR x.i.x.s.impl.CommentServiceImpl - 该tweetId:null对应的tweet不存在，无法评论
+2024-11-26 18:05:29.988 [http-nio-8081-exec-6] ERROR x.i.x.s.impl.CommentServiceImpl - 评论内容为空，无法评论
+2024-11-26 18:10:07.123 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-11-26 18:10:07.126 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-11-26 18:10:09.974 [main] INFO  xyz.ivan.x.XApplication - Starting XApplication using Java 17.0.11 on LAPTOP-FSPF6GT1 with PID 6892 (D:\javaWorkSpace\x\target\classes started by 15934 in D:\javaWorkSpace\x)
+2024-11-26 18:10:09.976 [main] INFO  xyz.ivan.x.XApplication - No active profile set, falling back to default profiles: default
+2024-11-26 18:10:10.270 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2024-11-26 18:10:10.272 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-11-26 18:10:10.285 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+2024-11-26 18:10:10.582 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2024-11-26 18:10:10.587 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2024-11-26 18:10:10.587 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-11-26 18:10:10.587 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.55]
+2024-11-26 18:10:10.628 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-11-26 18:10:10.628 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 629 ms
+2024-11-26 18:10:10.946 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "xyz.ivan.x.entity.Follow".
+2024-11-26 18:10:10.946 [main] WARN  c.b.m.c.injector.DefaultSqlInjector - class xyz.ivan.x.entity.Follow ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2024-11-26 18:10:11.202 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2024-11-26 18:10:11.224 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2024-11-26 18:10:11.231 [main] INFO  xyz.ivan.x.XApplication - Started XApplication in 1.48 seconds (JVM running for 1.855)
+2024-11-26 18:10:23.941 [http-nio-8081-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-26 18:10:23.942 [http-nio-8081-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-11-26 18:10:23.944 [http-nio-8081-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-11-26 18:10:24.739 [http-nio-8081-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-11-26 18:10:25.042 [http-nio-8081-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-11-26 18:10:25.102 [http-nio-8081-exec-2] ERROR x.i.x.s.impl.CommentServiceImpl - 删除comment：2
+2024-11-26 18:11:30.467 [http-nio-8081-exec-5] ERROR x.i.x.s.impl.CommentServiceImpl - comment：2不存在，无法删除！
+2024-11-26 18:16:49.927 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-11-26 18:16:49.937 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-11-26 18:16:52.910 [main] INFO  xyz.ivan.x.XApplication - Starting XApplication using Java 17.0.11 on LAPTOP-FSPF6GT1 with PID 5036 (D:\javaWorkSpace\x\target\classes started by 15934 in D:\javaWorkSpace\x)
+2024-11-26 18:16:52.912 [main] INFO  xyz.ivan.x.XApplication - No active profile set, falling back to default profiles: default
+2024-11-26 18:16:53.254 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2024-11-26 18:16:53.255 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-11-26 18:16:53.270 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+2024-11-26 18:16:53.608 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2024-11-26 18:16:53.613 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2024-11-26 18:16:53.614 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-11-26 18:16:53.614 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.55]
+2024-11-26 18:16:53.663 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-11-26 18:16:53.663 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 725 ms
+2024-11-26 18:16:54.037 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "xyz.ivan.x.entity.Follow".
+2024-11-26 18:16:54.037 [main] WARN  c.b.m.c.injector.DefaultSqlInjector - class xyz.ivan.x.entity.Follow ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2024-11-26 18:16:54.345 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2024-11-26 18:16:54.366 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2024-11-26 18:16:54.373 [main] INFO  xyz.ivan.x.XApplication - Started XApplication in 1.698 seconds (JVM running for 2.038)
+2024-11-26 18:17:20.684 [http-nio-8081-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-26 18:17:20.684 [http-nio-8081-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-11-26 18:17:20.686 [http-nio-8081-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-11-26 18:17:21.685 [http-nio-8081-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-11-26 18:17:21.991 [http-nio-8081-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-11-26 18:17:22.101 [http-nio-8081-exec-2] INFO  x.i.x.s.impl.CommentServiceImpl - 用户：1012添加评论：3成功
+2024-11-26 18:17:32.335 [http-nio-8081-exec-3] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'PUT' not supported]
+2024-11-26 18:17:49.221 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-11-26 18:17:49.226 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-11-26 18:17:51.898 [main] INFO  xyz.ivan.x.XApplication - Starting XApplication using Java 17.0.11 on LAPTOP-FSPF6GT1 with PID 15508 (D:\javaWorkSpace\x\target\classes started by 15934 in D:\javaWorkSpace\x)
+2024-11-26 18:17:51.901 [main] INFO  xyz.ivan.x.XApplication - No active profile set, falling back to default profiles: default
+2024-11-26 18:17:52.226 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2024-11-26 18:17:52.228 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-11-26 18:17:52.242 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+2024-11-26 18:17:52.551 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2024-11-26 18:17:52.555 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2024-11-26 18:17:52.556 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-11-26 18:17:52.556 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.55]
+2024-11-26 18:17:52.600 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-11-26 18:17:52.600 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 672 ms
+2024-11-26 18:17:52.933 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "xyz.ivan.x.entity.Follow".
+2024-11-26 18:17:52.933 [main] WARN  c.b.m.c.injector.DefaultSqlInjector - class xyz.ivan.x.entity.Follow ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2024-11-26 18:17:53.198 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2024-11-26 18:17:53.220 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2024-11-26 18:17:53.229 [main] INFO  xyz.ivan.x.XApplication - Started XApplication in 1.552 seconds (JVM running for 1.836)
+2024-11-26 18:17:59.846 [http-nio-8081-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-26 18:17:59.846 [http-nio-8081-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-11-26 18:17:59.846 [http-nio-8081-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2024-11-26 18:18:00.184 [http-nio-8081-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-11-26 18:18:00.290 [http-nio-8081-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-11-26 18:18:00.312 [http-nio-8081-exec-2] INFO  x.i.x.s.impl.CommentServiceImpl - 更新comment:null
+2024-11-26 18:18:56.346 [http-nio-8081-exec-3] INFO  x.i.x.s.impl.CommentServiceImpl - 更新comment:3
+2024-11-26 18:19:09.999 [http-nio-8081-exec-4] INFO  x.i.x.s.impl.CommentServiceImpl - 更新comment:3
+2024-11-26 18:21:17.338 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-11-26 18:21:17.344 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-11-26 18:21:19.880 [main] INFO  xyz.ivan.x.XApplication - Starting XApplication using Java 17.0.11 on LAPTOP-FSPF6GT1 with PID 7192 (D:\javaWorkSpace\x\target\classes started by 15934 in D:\javaWorkSpace\x)
+2024-11-26 18:21:19.882 [main] INFO  xyz.ivan.x.XApplication - No active profile set, falling back to default profiles: default
+2024-11-26 18:21:20.187 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2024-11-26 18:21:20.188 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-11-26 18:21:20.202 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+2024-11-26 18:21:20.482 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2024-11-26 18:21:20.487 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2024-11-26 18:21:20.487 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-11-26 18:21:20.487 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.55]
+2024-11-26 18:21:20.535 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-11-26 18:21:20.535 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 631 ms
+2024-11-26 18:21:20.870 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "xyz.ivan.x.entity.Follow".
+2024-11-26 18:21:20.870 [main] WARN  c.b.m.c.injector.DefaultSqlInjector - class xyz.ivan.x.entity.Follow ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2024-11-26 18:21:21.137 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2024-11-26 18:21:21.158 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2024-11-26 18:21:21.165 [main] INFO  xyz.ivan.x.XApplication - Started XApplication in 1.512 seconds (JVM running for 1.803)
+2024-11-26 18:21:37.231 [http-nio-8081-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-26 18:21:37.231 [http-nio-8081-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-11-26 18:21:37.232 [http-nio-8081-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-11-26 18:21:38.071 [http-nio-8081-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-11-26 18:21:38.386 [http-nio-8081-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-11-26 18:25:50.904 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-11-26 18:25:50.910 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-11-26 18:25:53.611 [main] INFO  xyz.ivan.x.XApplication - Starting XApplication using Java 17.0.11 on LAPTOP-FSPF6GT1 with PID 17536 (D:\javaWorkSpace\x\target\classes started by 15934 in D:\javaWorkSpace\x)
+2024-11-26 18:25:53.612 [main] INFO  xyz.ivan.x.XApplication - No active profile set, falling back to default profiles: default
+2024-11-26 18:25:53.912 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2024-11-26 18:25:53.914 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-11-26 18:25:53.927 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+2024-11-26 18:25:54.219 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2024-11-26 18:25:54.224 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2024-11-26 18:25:54.225 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-11-26 18:25:54.225 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.55]
+2024-11-26 18:25:54.272 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-11-26 18:25:54.272 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 634 ms
+2024-11-26 18:25:54.612 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "xyz.ivan.x.entity.Follow".
+2024-11-26 18:25:54.612 [main] WARN  c.b.m.c.injector.DefaultSqlInjector - class xyz.ivan.x.entity.Follow ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2024-11-26 18:25:54.863 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2024-11-26 18:25:54.884 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2024-11-26 18:25:54.891 [main] INFO  xyz.ivan.x.XApplication - Started XApplication in 1.507 seconds (JVM running for 1.787)
+2024-11-26 18:26:04.031 [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-26 18:26:04.031 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-11-26 18:26:04.033 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-11-26 18:26:33.050 [main] INFO  xyz.ivan.x.XApplication - Starting XApplication using Java 17.0.11 on LAPTOP-FSPF6GT1 with PID 13148 (D:\javaWorkSpace\x\target\classes started by 15934 in D:\javaWorkSpace\x)
+2024-11-26 18:26:33.052 [main] INFO  xyz.ivan.x.XApplication - No active profile set, falling back to default profiles: default
+2024-11-26 18:26:33.352 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2024-11-26 18:26:33.353 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-11-26 18:26:33.367 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+2024-11-26 18:26:33.660 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2024-11-26 18:26:33.665 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2024-11-26 18:26:33.666 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-11-26 18:26:33.666 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.55]
+2024-11-26 18:26:33.712 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-11-26 18:26:33.713 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 637 ms
+2024-11-26 18:26:34.059 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "xyz.ivan.x.entity.Follow".
+2024-11-26 18:26:34.059 [main] WARN  c.b.m.c.injector.DefaultSqlInjector - class xyz.ivan.x.entity.Follow ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2024-11-26 18:26:34.305 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2024-11-26 18:26:34.328 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2024-11-26 18:26:34.335 [main] INFO  xyz.ivan.x.XApplication - Started XApplication in 1.505 seconds (JVM running for 1.781)
+2024-11-26 18:26:47.659 [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-26 18:26:47.659 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-11-26 18:26:47.660 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2024-11-26 18:26:48.028 [http-nio-8081-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-11-26 18:26:48.137 [http-nio-8081-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-11-26 18:27:54.964 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-11-26 18:27:54.977 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-11-26 18:27:57.502 [main] INFO  xyz.ivan.x.XApplication - Starting XApplication using Java 17.0.11 on LAPTOP-FSPF6GT1 with PID 7816 (D:\javaWorkSpace\x\target\classes started by 15934 in D:\javaWorkSpace\x)
+2024-11-26 18:27:57.504 [main] INFO  xyz.ivan.x.XApplication - No active profile set, falling back to default profiles: default
+2024-11-26 18:27:57.817 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2024-11-26 18:27:57.819 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-11-26 18:27:57.833 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+2024-11-26 18:27:58.153 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2024-11-26 18:27:58.159 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2024-11-26 18:27:58.159 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-11-26 18:27:58.159 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.55]
+2024-11-26 18:27:58.209 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-11-26 18:27:58.209 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 678 ms
+2024-11-26 18:27:58.585 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "xyz.ivan.x.entity.Follow".
+2024-11-26 18:27:58.585 [main] WARN  c.b.m.c.injector.DefaultSqlInjector - class xyz.ivan.x.entity.Follow ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2024-11-26 18:27:58.826 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2024-11-26 18:27:58.849 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2024-11-26 18:27:58.856 [main] INFO  xyz.ivan.x.XApplication - Started XApplication in 1.577 seconds (JVM running for 1.853)
+2024-11-26 18:28:10.288 [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-26 18:28:10.289 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-11-26 18:28:10.289 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2024-11-26 18:28:10.602 [http-nio-8081-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-11-26 18:28:10.714 [http-nio-8081-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-11-26 18:29:19.164 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-11-26 18:29:19.179 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
